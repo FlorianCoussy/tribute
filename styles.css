@@ -1,0 +1,67 @@
+body {
+  font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus {
+  color: #202020;
+  text-decoration: underline;
+  outline: none;
+}
+
+/*** HEADER ***/
+header {
+  padding: 15px 0;
+  background-color: #202020;
+  color: #FFF;
+}
+
+h1 {
+  margin: 25px 0;
+  font-weight: bold;
+}
+
+/*** MAIN ***/
+aside,
+section {
+  margin: 15px 0;
+}
+
+/* SECTION */
+section .name {
+  text-decoration: none;
+}
+
+section div>a {
+  display: block;
+  margin-bottom: 15px;
+}
+
+section a img {
+  margin: 0 auto;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#accordion p {
+  text-align: left;
+}
+
+#accordion #bibliography p>a:first-of-type>em {
+  font-weight: bold;
+}
+
+/*** FOOTER ***/
+footer {
+  padding: 15px 0;
+  background-color: #202020;
+  color: #FFF;
+}

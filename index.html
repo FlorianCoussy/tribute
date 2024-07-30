@@ -1,12 +1,683 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>FCC Challenge - Tribute to Osamu Tezuka</title>
-    <!-- FCC Tests CDN -->
-    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" crossorigin="anonymous" defer></script>
-  </head>
-  <body>
-    <p>Minimal HTML template</p>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>FCC Challenge - Tribute to Osamu Tezuka</title>
+  <link rel="stylesheet" href="./stylesheets/styles.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1 class="text-center">
+      手塚 治虫<br />Osamu Tezuka<br />
+      <span>(1959 - 1989)</span>
+    </h1>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container">
+    <div class="row">
+
+      <!-- ASIDE -->
+      <aside class="col-sm-6">
+        <img class="img-responsive" src="http://www.christies.com/lotfinderimages/D60869/osamu_tezuka_d6086941g.jpg"
+          alt="Osamu Tezuka's sketch of Astro Boy." />
+      </aside>
+
+      <!-- SECTION -->
+      <section class="col-sm-6">
+
+        <!-- INTRODUCTION -->
+        <div class="row">
+          <div class="col-sm-6">
+            <p><a class="name" href="https://en.wikipedia.org/wiki/Osamu_Tezuka" target="_blank"
+                title="Osamu Tezuka on Wikipedia"><strong>Osamu Tezuka</strong></a> (<a
+                href="https://en.wikipedia.org/wiki/Japanese_language" target="_blank"
+                title="Japanese language">Japanese</a>: 手塚 治虫, born 手塚 治 <a
+                href="https://en.wikipedia.org/wiki/Hepburn_romanization" targer="_blank"
+                title="Hepburn romanization">Hepburn</a>: Tezuka Osamu, 3 November 1928 – 9 February 1989) was a
+              Japanese <a href="https://en.wikipedia.org/wiki/Manga_artist" target="_blank" title="Manga artist">manga
+                artist</a>, <a href="https://en.wikipedia.org/wiki/Cartoonist" targer="_blank"
+                title="Cartoonist">cartoonist</a>, <a href="https://en.wikipedia.org/wiki/Animator" target="_blank"
+                title="Animator">animator</a>, <a href="https://en.wikipedia.org/wiki/Film_producer" target="_blank"
+                title="Film producer">film producer</a>, <a href="https://en.wikipedia.org/wiki/Physician"
+                target="_blank" title="Medical doctor">medical doctor</a> and <a
+                href="https://en.wikipedia.org/wiki/Activism" target="_blank" title="Activist">activist</a>. Born in <a
+                href="https://en.wikipedia.org/wiki/Osaka_Prefecture" target="_blank" title="Osaka Prefecture">Osaka
+                Prefecture</a>, his prolific output, pioneering techniques, and innovative redefinitions of genres
+              earned him such titles as <em><q>the father of <a href="https://en.wikipedia.org/wiki/Manga"
+                    targer="_blank" title="Manga">manga</a></q></em>, <em><q>the godfather of manga</q></em> and
+              <em><q>the god of manga.</q></em> Additionally, he is often considered the Japanese equivalent to <a
+                href="https://en.wikipedia.org/wiki/Walt_Disney" target="_blank" title="Walt Disney">Walt Disney</a>,
+              who served as a major inspiration during Tezuka's formative years.
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <a href="https://en.wikipedia.org/wiki/Osamu_Tezuka" target="_blank">
+              <img class="img-responsive"
+                src="http://tezukainenglish.com/wp/wp-content/uploads/2013/12/tezuka-welcome.jpg"
+                alt="A portrait of Osamu Tezuka." />
+            </a>
+            <p><q>I'm begging you... let me work</q></p>
+          </div>
+        </div>
+
+        <p>Tezuka began what was known as the manga revolution in Japan with his <a
+            href="https://en.wikipedia.org/wiki/Shin_Takarajima" target="_blank" title="New Treasure Island">New
+            Treasure Island</a> published in 1947. His legendary output would spawn some of the most influential,
+          successful, and well received manga series including <a class="name"
+            href="https://en.wikipedia.org/wiki/Astro_Boy" target="_blank" title="Astro Boy"><strong>Astro
+              Boy</strong></a>, <a class="name" href="https://en.wikipedia.org/wiki/Kimba_the_White_Lion"
+            target="_blank" title="Kimba the White Lion"><strong>Kimba the White Lion</strong></a>, <a class="name"
+            href="https://en.wikipedia.org/wiki/Black_Jack_(manga)" target="_blank"
+            title="Black Jack (manga)"><strong>Black Jack</strong></a>, and <a class="name"
+            href="https://en.wikipedia.org/wiki/Phoenix_(manga)" target="_blank"
+            title="Phoenix (manga)"><strong>Phoenix</strong></a>, all of which won several awards.</p>
+
+        <p>Tezuka died of <a href="https://en.wikipedia.org/wiki/Stomach_cancer" target="_blank"
+            title="Stomach cancer">stomach cancer</a> in 1989. His death had an immediate impact on the Japanese public.
+          A museum was constructed in <a href="https://en.wikipedia.org/wiki/Takarazuka,_Hy%C5%8Dgo" target="_blank"
+            title="Takarazuka, Hyōgo">Takarazuka</a> dedicated to his memory and life works, and Tezuka received many
+          posthumous awards. Several animations were in production at the time of his death along with the final
+          chapters of <em>Phoenix</em>, which were never released.</p>
+
+        <!-- KNOWN FOR -->
+        <h3>Known For</h3>
+        <div class="row">
+          <div class="col-xs-6 col-sm-3">
+            <a href="http://www.imdb.com/title/tt0124228/?ref_=nm_knf_i1" target="_blank">
+              <img class="img-responsive"
+                src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4NzkyMTQ3NF5BMl5BanBnXkFtZTcwMjkwNDQzMQ@@._V1_UY216_CR3,0,148,216_AL_.jpg"
+                alt="Astro Boy Poster" />
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <a href="http://www.imdb.com/title/tt0375568/?ref_=nm_knf_i2" target="_blank">
+              <img class="img-responsive"
+                src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTI5NTEwNTcxMl5BMl5BanBnXkFtZTcwMDEyMTE4Mg@@._V1_UX148_CR0,0,148,216_AL_.jpg"
+                alt="Astro Boy, The Movie Poster" />
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <a href="http://www.imdb.com/title/tt0293416/?ref_=nm_knf_i3" target="_blank">
+              <img class="img-responsive"
+                src="https://images-na.ssl-images-amazon.com/images/M/MV5BM2E2ZTliMGQtY2U1NS00YjA0LTg3MTAtNTE1N2YyODRjMDllL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX148_CR0,0,148,216_AL_.jpg"
+                alt="" />
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <a href="http://www.imdb.com/title/tt0106421/?ref_=nm_knf_i4" target="_blank">
+              <img class="img-responsive"
+                src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzMjQ3MjAzM15BMl5BanBnXkFtZTcwNTA3NzgyMQ@@._V1_UY216_CR2,0,148,216_AL_.jpg"
+                alt="">
+            </a>
+          </div>
+        </div>
+
+        <!-- ACCORDION -->
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+          <!-- BIOGRAPHY -->
+          <div id="biography" class="panel panel-default">
+            <!-- BIOGRAPHY HEADING -->
+            <div class="panel-heading" role="tab" id="headingBiography">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseBiography"
+                  aria-expanded="true" aria-controls="collapseBiography">
+                  Biography
+                </a>
+              </h4>
+            </div>
+            <!-- BIOGRAPHY BODY -->
+            <div id="collapseBiography" class="panel-collapse collapse in" role="tabpanel"
+              aria-labelledby="headingBiography">
+              <div class="panel-body">
+
+                <!-- NAV TABS -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="active" role="presentation">
+                    <a href="#earlyLife" aria-controls="earlyLife" role="tab" data-toggle="tab">
+                      1928-45
+                    </a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#earlySuccess" aria-controls="earlySuccess" role="tab" data-toggle="tab">
+                      1946-52
+                    </a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#nationalFame" aria-controls="nationalFame" role="tab" data-toggle="tab">
+                      1952-60
+                    </a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#career" aria-controls="career" role="tab" data-toggle="tab">
+                      1961-89
+                    </a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#legacy" aria-controls="legacy" role="tab" data-toggle="tab">
+                      Legacy
+                    </a>
+                  </li>
+                </ul>
+
+                <!-- TAB PANES -->
+                <div class="tab-content">
+
+                  <!-- EARLY LIFE -->
+                  <div id="earlyLife" class="tab-pane fade in active" role="tabpanel">
+                    <h4>Early Life (1928-1945)</h4>
+                    <p>Tezuka was the eldest of three children in <a
+                        href="https://en.wikipedia.org/wiki/Toyonaka,_Osaka" target="_blank"
+                        title="Toyonaka, Osaka">Toyonaka City</a>, <a
+                        href="https://en.wikipedia.org/wiki/Osaka_Prefecture" target="_blank"
+                        title="Osaka Prefecture">Osaka</a>. His nickname was <em>gashagasha-atama</em>
+                      (<em>gashagasha</em> is slang for messy, <em>atama</em> means head). Later in life, he gave his
+                      mother credit for inspiring confidence and creativity through her stories. She frequently took him
+                      to the <a href="https://en.wikipedia.org/wiki/Takarazuka_Grand_Theater" target="_blank"
+                        title="Takarazuka Grand Theatre">Takarazuka Theatre</a>, which often headlined the <a
+                        href="https://en.wikipedia.org/wiki/Takarazuka_Revue" target="_blank"
+                        title="Takarazuka Revue">Takarazuka Revue</a>, an all-female musical theater troupe. Their
+                      romantic musicals aimed at a female audience, had a large influence of Tezuka's later works,
+                      including his costume designs. Not only that, but the large, sparkling eyes also had an influence
+                      on Tezuka's art style. He has said that he has a profound <q>spirit of nostalgia</q> for
+                      Takarazuka. When Tezuka was young, his father showed him Disney films; he became obsessed with the
+                      films and began to replicate them. He also became a Disney movie buff, seeing the films multiple
+                      times in a row, most famously seeing <a href="https://en.wikipedia.org/wiki/Bambi" target="_blank"
+                        title="Bambi">Bambi</a> more than 80 times. Tezuka started to draw comics around his second year
+                      of elementary school, drawing so much that his mother would have to erase pages in his notebook in
+                      order to keep up with his output. Tezuka was also inspired by works by Tagawa Hosui and Umino
+                      Junzo. Around his fifth year he found a bug named "<a
+                        href="https://en.wikipedia.org/wiki/Ground_beetle" target="_blank"
+                        title="Ground beetle">Osamushi</a>". It so resembled his name that he adopted "Osamushi" as his
+                      pen name. He continued to develop his manga skills throughout his school career. During this
+                      period he created his first adept amateur works. During high school in 1944, Tezuka was drafted to
+                      work for a factory, supporting the Japanese war effort during <a
+                        href="https://en.wikipedia.org/wiki/World_War_II" target="_blank" title="World War II">World War
+                        II</a>; he simultaneously continued writing manga. In 1945, Tezuka was accepted into <a
+                        href="https://en.wikipedia.org/wiki/Osaka_University" target="_blank"
+                        title="Osaka University">Osaka University</a> and began studying medicine. During this time, he
+                      also began publishing his first professional works.</p>
+                  </div>
+
+                  <!-- EARLY SUCCESS -->
+                  <div id="earlySuccess" class="tab-pane fade" role="tabpanel">
+                    <h4>Publishing career and early success (1946-1952)</h4>
+                    <img class="img-responsive"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Tezuka_Osamu.JPG/230px-Tezuka_Osamu.JPG"
+                      alt="Tezuka in 1952" />
+                    <p>Tezuka came to the realization that he could use manga as a means of helping to convince people
+                      to care for the world. After World War II, at age 17, he published his first piece of work: <a
+                        href="https://en.wikipedia.org/wiki/Diary_of_Ma-chan" target="_blank"
+                        title="Diary of Ma-chan"><em>Diary of Ma-chan</em></a>. Tezuka began talks with fellow manga
+                      artist Shichima Sakai, who had pitched Tezuka a manga based around the famous story <a
+                        href="https://en.wikipedia.org/wiki/Treasure_Island" target="_blank"
+                        title="Treasure Island"><em>Treasure Island</em></a>. Sakai promised Tezuka a publishing spot
+                      from Ikuei Shuppan if he would work on the manga. Tezuka finished the manga, only loosely basing
+                      it on the original work. <a href="https://en.wikipedia.org/wiki/Shin_Takarajima" target="_blank"
+                        title="Shin Takarajima"><em>Shin Takarajima</em></a> (<em>New Treasure Island</em>) was
+                      published and became an overnight success which began the golden age of manga, a craze comparable
+                      to <a href="https://en.wikipedia.org/wiki/American_comic_book" target="_blank"
+                        title="American comic book">American comic books</a> at the time.</p>
+                    <p>In 1951, Tezuka joined a group known as Tokyo Children Manga Association consisting of other
+                      manga artists such as Baba Noboru, Ota Jiro, Furusawa Hideo, Fukui Eiichi, Irie Shigeru, and
+                      Negishi Komichi.</p>
+                    <p>With the success of <em>New Treasure Island</em>, Tezuka traveled to <a
+                        href="https://en.wikipedia.org/wiki/Tokyo" target="_blank" title="Tokyo">Tokyo</a> in search of
+                      a publisher for more of his work. After visiting <a href="https://en.wikipedia.org/wiki/Kobunsha"
+                        target="_blank" title="Kobunsha">Kobunsha</a> Tezuka was turned down. However, publisher
+                      Shinseikaku agreed to purchase <em>The Strange Voyage of Dr. Tiger</em> and Domei Shuppansha would
+                      purchase <em>The Mysterious Dr. Koronko</em>. Whilst continuing his study in medical school Tezuka
+                      published his first masterpieces: a trilogy of science fiction epics called <a
+                        href="https://en.wikipedia.org/wiki/Lost_World_(manga)" target="_blank"
+                        title="Lost World (manga)"><em>Lost World</em></a>, <a
+                        href="https://en.wikipedia.org/wiki/Metropolis_(manga)" target="_blank"
+                        title="Metropolis (manga)"><em>Metropolis</em></a> and <em>Next World</em>.</p>
+                    <p>Soon after Tezuka published his first major success <em>Jungle Emperor Leo</em>, it was
+                      serialized in Manga Shonen from 1950 to 1954. In 1951 Tezuka graduated from the Osaka School of
+                      Medicine and published <a href="https://en.wikipedia.org/wiki/Ambassador_Atom" target="_blank"
+                        title="Ambassador Atom"><em>Ambassador Atom</em></a>, the first appearance of the Astro Boy
+                      character.</p>
+                  </div>
+
+                  <!-- NATIONAL FAME -->
+                  <div id="nationalFame" class="tab-pane fade" role="tabpanel">
+                    <h4><em>Astro Boy</em>, national fame and early animation (1952-1960)</h4>
+                    <img class="img-responsive"
+                      src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Astro_Boy-08.jpg/150px-Astro_Boy-08.jpg"
+                      alt="Tetsuwan Atom Cover Volume 8" />
+                    <p>By 1952, Ambassador Atom proved to be only a mild success in Japan; however, one particular
+                      character became extremely popular with young boys: a humanoid robot named Atom. Tezuka received
+                      several letters from many young boys. Expecting success with a series based around Atom, Tezuka's
+                      producer suggested that he should be given human emotions. One day while working at a hospital
+                      Tezuka was punched in the face by a frustrated American G.I. This encounter gave Tezuka the idea
+                      to create Atom. On February 4, 1952, <em>Tetsuwan Atom</em> began serialization in <em>Weekly
+                        Shonen Magazine</em>. The character Atom and his adventures became an instant phenomenon in
+                      Japan.</p>
+                    <p>Due to the success of <em>Tetsuwan Atom</em>, in 1953 Tezuka published the first <a
+                        href="https://en.wikipedia.org/wiki/Sh%C5%8Djo_manga" target="_blank"
+                        title="Shōjo manga">shōjo</a> manga <a href="https://en.wikipedia.org/wiki/Princess_Knight"
+                        target="_blank" title="Ribon no Kishi"><em>Ribon no Kishi</em></a> (<em>Princess Knight</em>),
+                      serialized in <a href="https://en.wikipedia.org/wiki/Sh%C5%8Djo_Club" target="_blank"
+                        title="Shojo Club"><em>Shojo Club</em></a> from 1953 to 1956.</p>
+                    <p>In 1954 Tezuka first published what he would consider his life's work, <em>Phoenix</em>, which
+                      originally appeared in <em>Mushi Production Commercial Firm</em>. In 1958 Tezuka was asked by <a
+                        href="https://en.wikipedia.org/wiki/Toei_Animation" target="_blank" title="Toei Animation">Toei
+                        Animation</a> if his manga <em>Son-Goku The Monkey</em> could be adapted into an animation. It
+                      was widely reported that Tezuka worked as a director on the file however, Tezuka himself claimed
+                      to have no part in the making of the film. He was only involved in its promotion, which later
+                      sparked his interest in the animation industry. The film was released as <a
+                        href="https://en.wikipedia.org/wiki/Alakazam_the_Great" target="_blank"
+                        title="Alakazam the Great"><em>Alakazam the Great</em></a> in 1960.</p>
+                  </div>
+
+                  <!-- CAREER -->
+                  <div id="career" class="tab-pane fade" role="tabpanel">
+                    <h4>Production career (1961-1989)</h4>
+                    <p>In 1961, Tezuka entered the animation industry in Japan by founding the production company <a
+                        href="https://en.wikipedia.org/wiki/Mushi_Production" target="_blank"
+                        title="Mushi Production">Mushi Production</a> as a rivalry with Toei Animation. He first began
+                      innovating the industry with the broadcast of the animated version of <a
+                        href="https://en.wikipedia.org/wiki/Astro_Boy_(1963_TV_series)" target="_blank"
+                        title="Astro Boy (1963 TV series)"><em>Astro Boy</em></a> in 1963; this series would create the
+                      first successful model for animation production in Japan and would also be the first Japanese
+                      animation dubbed into English for an American audience. Other series were subsequently translated
+                      to animation, including <em>Jungle Emperor</em>, the first Japanese animated series produced in
+                      full color. Tezuka stepped down as acting director in 1968 to found a new animation studio, <a
+                        href="https://en.wikipedia.org/wiki/Tezuka_Productions" target="_blank"
+                        title="Tezuka Productions">Tezuka Productions</a>, and continued experimenting with animation
+                      late into his life. In 1973, Mushi Productions collapsed financially and the fallout would produce
+                      several influential animation production studios including <a
+                        href="https://en.wikipedia.org/wiki/Sunrise_(company)" target="_blank"
+                        title="Sunrise (company)">Sunrise</a>.</p>
+                  </div>
+
+                  <!-- LEGACY -->
+                  <div id="legacy" class="tab-pane fade" role="tabpanel">
+                    <h4>Death and legacy</h4>
+                    <p>Tezuka died of <a href="https://en.wikipedia.org/wiki/Stomach_cancer" target="_blank"
+                        title="Stomach cancer">stomach cancer</a> on 9 February 1989 in Tokyo. His last words were:
+                      <q>I'm begging you, let me work!</q>, spoken to a nurse who had tried to take away his drawing
+                      equipment.
+                    </p>
+                    <p>The city of <a href="https://en.wikipedia.org/wiki/Takarazuka,_Hy%C5%8Dgo" target="_blank"
+                        title="Takarazuka, Hyōgo">Takarazuka, Hyōgo</a>, where Tezuka grew up, opened a museum in his
+                      memory. Stamps were issued in his honor in 1997. Also, beginning in 2003, the Japanese toy company
+                      <a href="https://en.wikipedia.org/wiki/Kaiyodo" target="_blank" title="Kaiyodo">Kaiyodo</a> began
+                      manufacturing a series of figurines of Tezuka's creations, including Princess Knight, Unico, the
+                      Phoenix, Dororo, Marvelous Melmo, Ambassador Magma, and many others. To date, three series of the
+                      figurines have been released.
+                    </p>
+                    <p>His legacy has continued to be honored among manga artists and animators. Artists such as <a
+                        href="https://en.wikipedia.org/wiki/Akira_Toriyama" target="_blank" title="Akira Toriyama">Akira
+                        Toriyama</a> (<a href="https://en.wikipedia.org/wiki/Dr._Slump" target="_blank"
+                        title="Dr. Slump"><em>Dr. Slump</em></a> and <a href="https://en.wikipedia.org/wiki/Dragon_Ball"
+                        target="_blank" title="Dragon Ball"><em>Dragon Ball</em></a>) have cited Tezuka as inspiration
+                      for their works.</p>
+                    <p>From 2003 to 2009, <a href="https://en.wikipedia.org/wiki/Naoki_Urasawa" target="_blank"
+                        title="Naoki Urasawa">Naoki Urasawa</a> and Takashi Nagasaki adapted an arc of <em>Astro
+                        Boy</em> into the murder mystery series <a href="https://en.wikipedia.org/wiki/Pluto_(manga)"
+                        target="_blank" title="Pluto (manga)"><em>Pluto</em></a>.</p>
+                    <p>Tezuka was a personal friend (and apparent artistic influence) of Brazilian comic book artist <a
+                        href="https://en.wikipedia.org/wiki/Mauricio_de_Sousa" target="_blank"
+                        title="Mauricio de Sousa">Mauricio de Sousa</a>. In 2012, Maurício published a two-issue story
+                      arc in the <a href="https://en.wikipedia.org/wiki/Monica_Teen" target="_blank"
+                        title="Monica Teen"><em>Monica Teen</em></a> comic book featuring some of Tezuka's main
+                      characters, such as Astro Boy, Black Jack, Sapphire, and Kimba, joining Monica and her friends in
+                      an adventure in the <a href="https://en.wikipedia.org/wiki/Amazon_rainforest" target="_blank"
+                        title="Amazon rainforest">Amazon rainforest</a> against a smuggling organization chopping down
+                      hundreds of trees. This was the first time that <a
+                        href="https://en.wikipedia.org/wiki/Tezuka_Productions" target="_blank"
+                        title="Tezuka Productions">Tezuka Productions</a> has allowed overseas artists to use Tezuka's
+                      characters.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- PERSONAL LIFE -->
+          <div id="personalLife" class="panel panel-default">
+            <!-- PERSONAL LIFE HEADING -->
+            <div class="panel-heading" role="tab" id="headingPersonalLife">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                  href="#collapsePersonalLife" aria-expanded="false" aria-controls="collapsePersonalLife">
+                  Personal life
+                </a>
+              </h4>
+            </div>
+            <!-- PERSONAL LIFE BODY -->
+            <div id="collapsePersonalLife" class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="headingPersonalLife">
+              <div class="panel-body">
+                <p>Tezuka is a descendent of <a href="https://en.wikipedia.org/wiki/Hattori_Hanz%C5%8D" target="_blank"
+                    title="Hattori Hanzō">Hattori Hanzō</a>, a famous ninja and samurai who faithfully served <a
+                    href="https://en.wikipedia.org/wiki/Tokugawa_Ieyasu" target="_blank"
+                    title="Tokugawa Ieyasu">Tokugawa Ieyasu</a> during the <a
+                    href="https://en.wikipedia.org/wiki/Sengoku_period" target="_blank" title="Sengoku period">Sengoku
+                    period</a> in Japan. His son <a href="https://en.wikipedia.org/wiki/Makoto_Tezuka" target="_blank"
+                    title="Makoto Tezuka">Makoto Tezuka</a> became a film and anime director. Tezuka guided many
+                  well-known manga artists such as <a href="https://en.wikipedia.org/wiki/Shotaro_Ishinomori"
+                    target="_blank" title="Shotaro Ishinomori">Shotaro Ishinomori</a> and <a
+                    href="https://en.wikipedia.org/wiki/Go_Nagai" target="_blank" title="Go Nagai">Go Nagai</a>.</p>
+                <p>Tezuka enjoyed bug-collecting, entomology, Walt Disney, baseball, and licensed the "grown up" version
+                  of his character Kimba the White Lion as the logo for the <a
+                    href="https://en.wikipedia.org/wiki/Seibu_Lions" target="_blank" title="Seibu Lions">Seibu Lions</a>
+                  of the <a href="https://en.wikipedia.org/wiki/Nippon_Professional_Baseball" target="_blank"
+                    title="Nippon Professional Baseball League">Nippon Professional Baseball League</a>. Tezuka met Walt
+                  Disney in person at the <a href="https://en.wikipedia.org/wiki/1964_New_York_World%27s_Fair"
+                    target="_blank" title="1964 New York World's Fair">1964 New York World's Fair</a>. In a 1986 entry
+                  in his personal diary, Tezuka stated that Disney wanted to hire him for a potential science fiction
+                  project. Tezuka was a fan of <a href="https://en.wikipedia.org/wiki/Superman" target="_blank"
+                    title="Superman">Superman</a> and was made honorary chairman of the Superman Fan Club in Japan. In
+                  1959 Tezuka married Etsuko Okada at a Takarazuka Hotel.</p>
+                <p>As a child, Tezuka's arms swelled up and he became ill. He was treated and cured by a doctor, which
+                  made him want to be a doctor. At a crossing point, he asked his mother whether he should look into
+                  doing manga full-time or whether he should become a doctor. At the time, being a manga author was not
+                  a particularly rewarding job. The answer his mother gave was: <q>You should work doing the thing you
+                    like most of all.</q> Tezuka decided to devote himself to manga creation on a full-time basis. He
+                  graduated from Osaka University and obtained his medical degree, but he would later use his medical
+                  and scientific knowledge to enrich his sci-fi manga, such as <a
+                    href="https://en.wikipedia.org/wiki/Black_Jack_(manga)" target="_blank" title="Black Jack"><em>Black
+                      Jack</em></a>.</p>
+                <p>Tezuka was <a href="https://en.wikipedia.org/wiki/Black_Jack_(manga)" target="_blank"
+                    title="Agnostic">agnostic</a>, but was buried in a Buddhist cemetery in Tokyo.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- WORKS -->
+          <div id="works" class="panel panel-default">
+            <!-- WORKS HEADING -->
+            <div class="panel-heading" role="tab" id="headingWorks">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseWorks"
+                  aria-expanded="false" aria-controls="collapseWorks">
+                  Works
+                </a>
+              </h4>
+            </div>
+            <!-- WORKS BODY -->
+            <div id="collapseWorks" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingWorks">
+              <div class="panel-body">
+                <p>His complete oeuvre includes over 700 volumes with more than 150,000 pages. A complete list of his
+                  works can be found on the Tezuka Osamu Manga Museum website.</p>
+                <p>Tezuka's creations include <a href="https://en.wikipedia.org/wiki/Astro_Boy" target="_blank"
+                    title="Astro Boy"><em>Astro Boy</em></a> (<em>Mighty Atom</em> in Japan), <a
+                    href="https://en.wikipedia.org/wiki/Black_Jack_(manga)" target="_blank" title="Black Jack"><em>Black
+                      Jack</em></a>, <a href="https://en.wikipedia.org/wiki/Princess_Knight" target="_blank"
+                    title="Princess Knight"><em>Princess Knight</em></a>, <a
+                    href="https://en.wikipedia.org/wiki/Phoenix_(manga)" target="_blank"
+                    title="Phoenix"><em>Phoenix</em></a> (<em>Hi no Tori</em> in Japan), <a
+                    href="https://en.wikipedia.org/wiki/Kimba_the_White_Lion" targte="_blank"
+                    title="Kimba the White Lion"><em>Kimba the White Lion</em></a> (<em>Jungle Emperor</em> in Japan),
+                  <a href="https://en.wikipedia.org/wiki/Unico" target="_blank" title="Unico"><em>Unico</em></a>, <a
+                    href="https://en.wikipedia.org/wiki/Message_to_Adolf" target="_blank"
+                    title="Message to Adolf"><em>Message to Adolf</em></a>, <a
+                    href="https://en.wikipedia.org/wiki/The_Amazing_3" target="_blank" title="The Amazing 3"><em>The
+                      Amazing 3</em></a> and <a href="https://en.wikipedia.org/wiki/Buddha_(manga)" target="_blank"
+                    title="Buddha"><em>Buddha</em></a>. His "life's work" was <a
+                    href="https://en.wikipedia.org/wiki/Phoenix_(manga)" target="_blank"
+                    title="Phoenix"><em>Phoenix</em></a>—a story of life and death that he began in the 1950s and
+                  continued until his death.
+                </p>
+                <p>In January 1965, Tezuka received a letter from American film director <a
+                    href="https://en.wikipedia.org/wiki/Stanley_Kubrick" target="_blank" title="Stanley Kubrick">Stanley
+                    Kubrick</a>, who had watched <a href="https://en.wikipedia.org/wiki/Astro_Boy" target="_blank"
+                    title="Astro Boy"><em>Astro Boy</em></a> and wanted to invite Tezuka to be the art director of his
+                  next movie, <a href="https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(film)" target="_blank"
+                    title="2001: A Space Odyssey (film)"><em>2001: A Space Odyssey</em></a> (1968). Although flattered
+                  by Kubrick's invitation, Tezuka could not afford to leave his studio for a year to live in England, so
+                  he had to turn it down. Although he could not work on it, he loved the film, and would play its
+                  soundtrack at maximum volume in his studio to keep him awake during long nights of work.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- STYLE -->
+          <div id="style" class="panel panel-default">
+            <!-- STYLE HEADING -->
+            <div class="panel-heading" role="tab" id="headingStyle">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseStyle"
+                  aria-expanded="false" aria-controls="collapseStyle">
+                  Style
+                </a>
+              </h4>
+            </div>
+            <!-- STYLE BODY -->
+            <div id="collapseStyle" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingStyle">
+              <div class="panel-body">
+                <p>Tezuka is known for his imaginative stories and stylized Japanese adaptations of western literature
+                  with reading novels and watching films that came from the West. His early works included manga
+                  versions of Disney movies such as <a href="https://en.wikipedia.org/wiki/Bambi" target="_blank"
+                    title="Bambi"><em>Bambi</em></a>. Tezuka's "cinematic" page layouts, influenced by <a
+                    href="https://en.wikipedia.org/wiki/Milt_Gross" target="_blank" title="Milt Gross">Milt Gross</a>'
+                  early graphic novel <a href="https://en.wikipedia.org/wiki/He_Done_Her_Wrong" target="_blank"
+                    title="He Done Her Wrong"><em>He Done Her Wrong</em></a>, which he read as a child, became a common
+                  characteristic for many manga artists who followed in Tezuka's footsteps. His work, like that of other
+                  manga creators, was sometimes gritty and violent.</p>
+                <p>Tezuka headed the animation production studio <a
+                    href="https://en.wikipedia.org/wiki/Mushi_Production" target="_blank" title="Mushi Production">Mushi
+                    Production</a> ("Bug Production"), which pioneered TV animation in Japan. The distinctive "large
+                  eyes" style of <a href="https://en.wikipedia.org/wiki/Anime" target="_blank" title="Anime">Japanese
+                    animation</a> was invented by Tezuka, drawing inspiration from Western cartoons and animated films
+                  of the time such as <a href="https://en.wikipedia.org/wiki/Betty_Boop" target="_blank"
+                    title="Betty Boop"><em>Betty Boop</em></a>, <a href="https://en.wikipedia.org/wiki/Mickey_Mouse"
+                    target="_blank" title="Mickey Mouse"><em>Mickey Mouse</em></a> and other <a
+                    href="https://en.wikipedia.org/wiki/Walt_Disney" target="_blank" title="Walt Disney">Disney</a>
+                  movies.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- MUSEUM -->
+          <div id="museum" class="panel panel-default">
+            <!-- MUSEUM HEADING -->
+            <div class="panel-heading" role="tab" id="headingMuseum">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                  href="#collapseMuseum" aria-expanded="false" aria-controls="collapseMuseum">
+                  Museum
+                </a>
+              </h4>
+            </div>
+            <!-- MUSEUM BODY -->
+            <div id="collapseMuseum" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingMuseum">
+              <div class="panel-body">
+                <img class="img-responsive"
+                  src="https://upload.wikimedia.org/wikipedia/commons/2/27/Osamu_Tezuka_Museum.jpg"
+                  alt="The Osamu Tezuka Manga Museum" />
+                <p>The Osamu Tezuka Manga Museum (宝塚市立手塚治虫記念館, lit. "Takarazuka City Tezuka Osamu Memorial Hall"),
+                  located in the city of <a href="https://en.wikipedia.org/wiki/Takarazuka,_Hy%C5%8Dgo" target="_blank"
+                    title="Takarazuka, Hyōgo">Takarazuka, Hyōgo</a> Prefecture, was inaugurated on April 25, 1994, and
+                  has three floors (15069.47 ft²). In the basement there is an "Animation Workshop" in which visitors
+                  can make their own animation, and a mockup of the city of Takarazuka and a replica of the table where
+                  Osamu Tezuka worked.</p>
+                <p>Outside of the building's entrance, there are imitations of the hands and feet of several characters
+                  from Tezuka (as in a true walk of fame) and on the inside, the entry hall, a replica of <a
+                    href="https://en.wikipedia.org/wiki/Princess_Knight" target="_blank"
+                    title="Princess Knight">Princess Knight</a>'s furniture. On the same floor is a permanent exhibition
+                  of manga and a room for the display of anime. The exhibition is divided into two parts: Osamu Tezuka
+                  and the city of Takarazuka and Osamu Tezuka, the author.</p>
+                <p>The second floor contains, along with several exhibitions, a manga library with five hundred works of
+                  Tezuka (some foreign editions are also present), a video library, and a lounge with decor inspired by
+                  <em>Kimba the White Lion</em>.
+                </p>
+                <p>There is also a glass sculpture that represents the planet Earth and is based on a book written by
+                  Tezuka in his childhood called "Our Earth of Glass."</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- AWARDS -->
+          <div id="awards" class="panel panel-default">
+            <!-- AWARDS HEADING -->
+            <div class="panel-heading" role="tab" id="headingAwards">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                  href="#collapseAwards" aria-expanded="false" aria-controls="collapseAwards">
+                  Awards
+                </a>
+              </h4>
+            </div>
+            <!-- AWARDS BODY -->
+            <div id="collapseAwards" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAwards">
+              <div class="panel-body">
+                <ul>
+                  <li>1957 <a href="https://en.wikipedia.org/wiki/Shogakukan_Manga_Award" target="_blank"
+                      title="Shogakukan Manga Award">Shogakukan Manga Award</a> for <em>Manga Seminar on Biology</em>
+                    and <a href="https://en.wikipedia.org/wiki/Biiko-chan" target="_blank"
+                      title="Biiko-chan"><em>Biiko-chan</em></a></li>
+                  <li>1975 <a href="https://en.wikipedia.org/wiki/Bungeishunj%C5%AB" target="_blank"
+                      title="Bungeishunjū">Bungeishunjū</a> manga Award</li>
+                  <li>1975 <a href="https://en.wikipedia.org/wiki/Japan_Cartoonists_Association_Award" target="_blank"
+                      title="Japan Cartoonists Association Award">Japan Cartoonists Association Award</a> - Special
+                    Award</li>
+                  <li>1977 <a href="https://en.wikipedia.org/wiki/Kodansha_Manga_Award" target="_blank"
+                      title="Kodansha Manga Award">Kodansha Manga Award</a> for <a
+                      href="https://en.wikipedia.org/wiki/Black_Jack_(manga)" target="_blank"
+                      title="Black Jack (manga)"><em>Black Jack</em></a> and <a
+                      href="https://en.wikipedia.org/wiki/The_Three-Eyed_One" target="_blank"
+                      title="The Three-Eyed One"><em>The Three-Eyed One</em></a></li>
+                  <li>1980 <a href="https://en.wikipedia.org/wiki/Inkpot_Award" target="_blank"
+                      title="Inkpot Award">Inkpot Award</a>, <a href="https://en.wikipedia.org/wiki/San_Diego_Comic-Con"
+                      target="_blank" title="San Diego Comic-Con">San Diego Comic-Con</a></li>
+                  <li>1983 <a href="https://en.wikipedia.org/wiki/Shogakukan_Manga_Award" target="_blank"
+                      title="Shogakukan Manga Award">Shogakukan Manga Award</a> for <a
+                      href="https://en.wikipedia.org/wiki/Hidamari_no_Ki" target="_blank"
+                      title="Hidamari no Ki"><em>Hidamari no Ki</em></a></li>
+                  <li>1984 <a href="https://en.wikipedia.org/wiki/Animafest_Zagreb" target="_blank"
+                      title="Animafest Zagreb">Animafest Zagreb</a> Grand Prize for <em>Jumping</em></li>
+                  <li>1985 <a href="https://en.wikipedia.org/wiki/Hiroshima_International_Animation_Festival"
+                      target="_blank" title="Hiroshima International Animation Festival">Hiroshima International
+                      Animation Festival</a> for <em>Onboro-Film</em></li>
+                  <li>1986 <a href="https://en.wikipedia.org/wiki/Kodansha_Manga_Award" target="_blank"
+                      title="Kodansha Manga Award">Kodansha Manga Award</a> for <a
+                      href="https://en.wikipedia.org/wiki/Message_to_Adolf" target="_blank"
+                      title="Message to Adolf"><em>Message to Adolf</em></a></li>
+                  <li>1989 <a href="https://en.wikipedia.org/wiki/Nihon_SF_Taisho_Award" target="_blank"
+                      title="Nihon SF Taisho Award">Nihon SF Taisho Award</a> – Special Award</li>
+                  <li>1989 <a href="https://en.wikipedia.org/wiki/Order_of_the_Sacred_Treasure" target="_blank"
+                      title="Order of the Sacred Treasure">Order of the Sacred Treasure</a>, 3rd class (posthumous)</li>
+                  <li>2004 <a href="https://en.wikipedia.org/wiki/Eisner_Award" target="_blank"
+                      title="Eisner Award">Eisner Award</a> for <a href="https://en.wikipedia.org/wiki/Buddha_(manga)"
+                      target="_blank" title="Buddha (manga)"><em>Buddha</em></a> (vols. 1–2)
+                  </li>
+                  <li>2005 <a href="https://en.wikipedia.org/wiki/Eisner_Award" target="_blank"
+                      title="Eisner Award">Eisner Award</a> for <a href="https://en.wikipedia.org/wiki/Buddha_(manga)"
+                      target="_blank" title="Buddha (manga)"><em>Buddha</em></a> (vols. 3–4)
+                  </li>
+                  <li>2009 <a href="https://en.wikipedia.org/wiki/Eisner_Award" target="_blank"
+                      title="Eisner Award">Eisner Award</a> for <a href="https://en.wikipedia.org/wiki/Dororo"
+                      target="_blank" title="Dororo"><em>Dororo</em></a></li>
+                  <li>2014 <a href="https://en.wikipedia.org/wiki/Eisner_Award" target="_blank"
+                      title="Eisner Award">Eisner Award</a> for <em>The Mysterious Underground Men</em></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- BIBLIOGRAPHY -->
+          <div id="bibliography" class="panel panel-default">
+            <!-- BIBLIOGRAPHY HEADING -->
+            <div class="panel-heading" role="tab" id="headingBibliography">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                  href="#collapseBibliography" aria-expanded="false" aria-controls="collapseBibliography">
+                  Bibliography (manga)
+                </a>
+              </h4>
+            </div>
+            <!-- BIBLIOGRAPHY BODY -->
+            <div id="collapseBibliography" class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="headingBibliography">
+              <div class="panel-body">
+                <p><em>For more complete lists, see <a href="https://en.wikipedia.org/wiki/List_of_Osamu_Tezuka_manga"
+                      target="_blank" title="List of Osamu Tezuka manga">List of Osamu Tezuka manga</a> and <a
+                      href="https://en.wikipedia.org/wiki/List_of_Osamu_Tezuka_anime" target="_blank"
+                      title="List of Osamu Tezuka anime">List of Osamu Tezuka anime</a>.</em></p>
+
+                <ul>
+                  <li>
+                    <p><a href="https://en.wikipedia.org/wiki/Astro_Boy" target="_blank" title="Astro Boy"><em>Astro
+                          Boy</em></a>, 1952–68. A sequel to <em>Captain ATOM</em> (1951), with Atom renamed Astro Boy
+                      in the U.S. as its main character. Eventually, Astro Boy would become Tezuka's most famous
+                      creation. He created the nuclear-powered, yet peace-loving, boy robot first after being punched in
+                      the face by a drunken G.I. In 1963, <em>Astro Boy</em> made its debut as the first domestically
+                      produced animated program on Japanese television. The 30-minute weekly program (of which 193
+                      episodes were produced) led to the first craze for anime in Japan. In America, the TV series
+                      (which consisted of 104 episodes licensed from the Japanese run) was also a hit, becoming the
+                      first Japanese animation to be shown on U.S. television, although the U.S. producers downplayed
+                      and disguised the show's Japanese origins. Several other <em>Astro Boy</em> series have been made
+                      since, as well as a 2009 <a href="https://en.wikipedia.org/wiki/Computer-generated_imagery"
+                        target="_blank" title="Computer-generated imagery">CGI-animated</a> feature film <a
+                        href="https://en.wikipedia.org/wiki/Astro_Boy_(film)" target="_blank"
+                        title="Astro Boy (film)"><em>Astro Boy</em></a>.</p>
+                  </li>
+
+                  <li>
+                    <p><a href="https://en.wikipedia.org/wiki/Phoenix_(manga)" target="_blank"
+                        title="Phoenix (manga)"><em>Phoenix</em></a>, 1956–89. Tezuka's most profound and ambitious
+                      work, dealing with man's quest for immortality, ranging from the distant past to the far future.
+                      The central character is the Phoenix, the physical manifestation of the cosmos, who carries within
+                      itself the power of immortality; either granted by the Phoenix or taken from the Phoenix by
+                      drinking a small amount of its blood. Other characters appear and reappear throughout the series;
+                      usually due to their reincarnation. The work remained unfinished at the time of Tezuka's death in
+                      1989. <em>Phoenix</em> has been filmed several times, most notably as <a
+                        href="https://en.wikipedia.org/wiki/Phoenix_2772" target="_blank"
+                        title="Phoenix 2772"><em>Phoenix 2772</em></a> (1980). <a
+                        href="https://en.wikipedia.org/wiki/Baku_Yumemakura" target="_blank"
+                        title="Baku Yumemakura">Baku Yumemakura</a> was influenced by <em>Phoenix</em>; Yumemakura would
+                      go on to write the script for <a href="https://en.wikipedia.org/wiki/Alakazam_the_Great"
+                        target="_blank" title="Alakazam the Great"><em>Boku no Son Goku</em></a>.</p>
+                  </li>
+
+                  <li>
+                    <p><a href="https://en.wikipedia.org/wiki/Black_Jack_(manga)" target="_blank"
+                        title="Black Jack (manga)"><em>Black Jack</em></a>, 1973–83. The story of Black Jack, a talented
+                      surgeon who operates illegally, using radical and supernatural techniques to combat rare
+                      afflictions. Black Jack received the Japan Cartoonists' Association Special Award in 1975 and the
+                      Koudansha Manga Award in 1977. Three Black Jack TV movies were released between 2000-01. In fall
+                      2004, an anime television series was aired in Japan with 61 episodes, releasing another movie
+                      afterward. A new series, titled Black Jack 21, started broadcasting on April 10, 2006. In
+                      September 2008, the first volume of the manga had been published in English by Vertical Publishing
+                      and more volumes are being published to this day.</p>
+                  </li>
+
+                  <li>
+                    <p><a href="https://en.wikipedia.org/wiki/Buddha_(manga)" target="_blank"
+                        title="Buddha (manga)"><em>Buddha</em></a>, 1972–83, is Tezuka's unique interpretation of the
+                      life of <a href="https://en.wikipedia.org/wiki/Gautama_Buddha" target="_blank"
+                        title="Gautama Buddha">Gautama Buddha</a>, the founder of <a
+                        href="https://en.wikipedia.org/wiki/Buddhism" target="_blank" title="Buddhism">Buddhism</a>. The
+                      critically acclaimed series is often referred to as a gritty portrayal of the Buddha's life. The
+                      series began in September 1972 and ended in December 1983, as one of Tezuka's last <a
+                        href="https://en.wikipedia.org/wiki/Epic_(genre)" target="_blank" title="Epic (genre)">epic</a>
+                      manga works. Nearly three decades after the manga was completed, two <a
+                        href="https://en.wikipedia.org/wiki/Anime" target="_blank" title="Anime">anime</a> film
+                      adaptations were released in 2011 and 2014.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="text-center">
+    2017 &copy; Florian Coussy
+  </footer>
+</body>
+
 </html>
